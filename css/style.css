@@ -15,7 +15,7 @@ nav {
 }
 
 
-h1{
+#topHeading{
     display: flex;
     justify-content: center;
     padding-left: 1rem;
@@ -24,8 +24,13 @@ h1{
     color: white;
 }
 
+#bottomHeading{
+    color: white;
+    padding:1rem;
+}
+
 header{
-    background-color:green;
+    background-color:#687864
 }
 
 a:link {
@@ -41,6 +46,82 @@ a:hover{
     color: lightgreen;
 }
 
-a:active{
-  
+body{
+background-color: #687864;
+height: 15vh;
+
+}
+
+#gridWrapperIndex{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "s1 s2" 
+    "s3 s4"
+    "s5 s6";
+    height: 300vh;
+    gap: 1rem;
+}
+
+footer{
+
+    background-color: #687864;  
+    height: 15vh;
+}
+
+
+#s1{
+    display: flex;
+    background-color:#8FC1E3;
+    justify-content: center;
+    align-items: center;
+
+}
+#s2{
+    display: flex;
+    background-color:  #8FC1E3;
+
+}
+#s3{
+    display: flex;
+    background-color: #8FC1E3;
+
+}
+#s4{
+    display: flex;
+    background-color: #8FC1E3;
+    justify-content: center;
+    align-items: center;
+}
+#s5{
+    display: flex;
+    background-color:  #8FC1E3;
+    justify-content: center;
+    align-items: center;;
+}
+#s6{
+
+    display: flex;
+    background-color:  #8FC1E3;
+}
+
+#headingOverGridSection{
+
+    display: flex;
+    position: absolute;
+    justify-content: center 
+
+}
+
+#pandaImg{
+
+    width: 750px;
+
+}
+
+.animalHeading{
+
+    color: #317083;
+    font-size: 40px;
 }
