@@ -30,7 +30,7 @@ nav {
 }
 
 header{
-    background-color:#687864
+    background-color:#40623a
 }
 
 a:link {
@@ -59,12 +59,11 @@ height: 15vh;
     grid-template-areas: 
     "s1 s2 s3 s4";
     position: relative;
-    
 }
 
 footer{
 
-    background-color: #687864;  
+    background-color: #40623a;  
     height: 15vh;
 }
 
@@ -97,9 +96,14 @@ footer{
     background-size: 430px;
 }
 
-#ourAnimals{
+#ourAnimalsSection{
     position: absolute;
-    display: flex;
-    justify-content: 
+    justify-items: center;
+    margin-left: 670px;
+    margin-top: 265px;
+}
 
+#ourAnimals{
+    font-size: 75px;
+    color: white    ;
 }
