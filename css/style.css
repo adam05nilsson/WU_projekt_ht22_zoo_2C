@@ -47,21 +47,19 @@ a:hover{
 }
 
 body{
-background-color: #687864;
+background-color: white;
 height: 15vh;
 
 }
 
 #gridWrapperIndex{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 80vh;
     grid-template-areas: 
-    "s1 s2" 
-    "s3 s4"
-    "s5 s6";
-    height: 300vh;
-    gap: 1rem;
+    "s1 s2 s3 s4";
+    position: relative;
+    
 }
 
 footer{
@@ -73,55 +71,35 @@ footer{
 
 #s1{
     display: flex;
-    background-color:#8FC1E3;
-    justify-content: center;
-    align-items: center;
+    background-color: white;
+    background-image: url(..//img/animals/bildPaPanda.jpg);
+    background-size: 450px;
 
 }
 #s2{
     display: flex;
-    background-color:  #8FC1E3;
+    background-color:  white;
+    background-image: url(..//img/animals/bildPaGiraff.jpg);
+    background-size: 450px;
 
 }
 #s3{
     display: flex;
-    background-color: #8FC1E3;
+    background-color: white;
+    background-image: url(..//img/animals/bildPaGladaApor.jpg);
+    background-size: 430px;
 
 }
 #s4{
     display: flex;
-    background-color: #8FC1E3;
-    justify-content: center;
-    align-items: center;
-}
-#s5{
-    display: flex;
-    background-color:  #8FC1E3;
-    justify-content: center;
-    align-items: center;;
-}
-#s6{
-
-    display: flex;
-    background-color:  #8FC1E3;
+    background-color:  white;
+    background-image: url(..//img/animals/flamingoBild.jpg);
+    background-size: 430px;
 }
 
-#headingOverGridSection{
-
-    display: flex;
+#ourAnimals{
     position: absolute;
-    justify-content: center 
+    display: flex;
+    justify-content: 
 
-}
-
-#pandaImg{
-
-    width: 750px;
-
-}
-
-.animalHeading{
-
-    color: #317083;
-    font-size: 40px;
 }
