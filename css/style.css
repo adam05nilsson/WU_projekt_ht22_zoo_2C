@@ -30,7 +30,7 @@ nav {
 }
 
 header{
-    background-color:#40623a
+    background-color:#496f43;
 }
 
 a:link {
@@ -47,59 +47,101 @@ a:hover{
 }
 
 body{
-background-color:#40623a;
-height: 15vh;
-
+background-color:white;
 }
 
 #gridWrapperIndex{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 80vh 15vh;
-    grid-template-areas: 
-    "s1 s2 s3 s4";
+    grid-template-rows: 80vh 15vh 80vh 80vh 80vh 80vh;
+    grid-template-areas:
+    "s1 s2 s3 s4"
+    "sb sb sb sb"
+    "s5 s5 s6 s6"
+    "s7 s7 s8 s8"
+    "s9 s9 s10 s10"
+    "s11 s11 s12 s12"
+    ;
     position: relative;
 }
 
 footer{
-
-    background-color: #40623a;  
+    background-color:#496f43;
     height: 15vh;
 }
 
 
 #s1{
-    display: flex;
-    background-color: white;
     background-image: url(..//img/animals/bildPaPanda.jpg);
     background-size: 450px;
-
+    grid-area: s1;
 }
 #s2{
-    display: flex;
-    background-color:  white;
     background-image: url(..//img/animals/bildPaGiraff.jpg);
     background-size: 450px;
+    grid-area: s2;
 
 }
 #s3{
-    display: flex;
-    background-color: white;
     background-image: url(..//img/animals/bildPaGladaApor.jpg);
     background-size: 430px;
+    grid-area: s3;
 
 }
 #s4{
-    display: flex;
-    background-color:  white;
     background-image: url(..//img/animals/flamingoBild.jpg);
     background-size: 430px;
+    grid-area: s4;
 }
 
 #s5{
-    display: flex;
-    background-color: #40623a;
+    grid-area: s5;
 }
+
+#s6{
+    grid-area: s6;
+    align-items: center;
+}
+
+#s7{
+    grid-area: s7;
+    align-items: center;
+
+}
+
+#s8{
+    grid-area: s8;
+}
+
+#s9{
+    grid-area: s9;
+}
+
+#s10{
+    grid-area: s10;
+    align-items: center;
+}
+
+#s11{
+    grid-area: s11;
+    align-items: center;
+}
+#s12{
+    grid-area: s12;
+}
+
+
+.animalSection{
+    display: flex;
+    background-color: #3a5836;
+    flex-direction: column;
+}
+
+#sb{
+    grid-area: sb;
+    background-color: #496f43;
+}
+
 
 #ourAnimalsSection{
     position: absolute;
@@ -110,10 +152,49 @@ footer{
 
 #ourAnimals{
     font-size: 75px;
-    color: white    ;
+    color: white ;
+
 }
 
 #contactList{
-
+    color: white;
     margin-left: 2rem;
+}
+
+#bildPa2Pandor{
+    width: 700px;
+    border: 10px solid;
+    border-color: white;
+}
+
+h2{
+    color: white;
+}
+p{
+    color: white;
+}
+
+.animalHeading{
+    font-size: 50px;
+    margin-top: 140px;   
+}
+
+.animalText{
+    font-size: 30px;
+    padding: 50px;
+}
+
+.animalImages{
+    justify-content: center;
+    align-items: center;
+}
+
+.bildPaDjur{
+    width: 700px;
+    border: 10px solid;
+    border-color: white;
+}
+
+#bildPaApa{
+    height: 630px;
 }
