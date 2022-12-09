@@ -171,7 +171,7 @@ h2{
     color: white;
 }
 p{
-    color: white;
+    color: white ;
 }
 
 .animalHeading{
@@ -184,17 +184,109 @@ p{
     padding: 50px;
 }
 
-.animalImages{
+.centerImages{
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .bildPaDjur{
     width: 700px;
-    border: 10px solid;
+    border: 5px solid;
     border-color: white;
 }
 
 #bildPaApa{
     height: 630px;
 }
+
+#griddWrapperResturant{
+    display: grid;
+    grid-template-columns: 0.3fr 1fr 1fr 1fr 0.3fr;
+    grid-template-rows: 15vh 55vh 40vh 55vh 40vh;
+    grid-template-areas: 
+    ". . . . ."
+    ". sr1 sr2 sr3 ."
+    ". sr4 sr5 sr6 ."
+    ". sr7 sr8 sr9 ."
+    ". sr10 sr11 sr12 ."
+    ;
+    background-color: #3a5836;
+}
+
+#sr1{
+    grid-area: sr1;  
+}
+
+#sr2{
+    grid-area: sr2;
+}
+
+#sr3{
+    grid-area: sr3;
+}
+
+#sr4{
+    grid-area: sr4;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#sr5{
+    grid-area: sr5;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#sr6{
+    grid-area: sr6;
+    display: flex;
+    align-items:  center;
+    flex-direction: column;
+}
+
+#sr7{
+    grid-area: sr7;
+}
+
+#sr8{
+    grid-area: sr8;
+}
+
+#sr9{
+    grid-area: sr9;
+}
+
+#sr10{
+    grid-area: sr10;
+}
+
+#sr11{
+    grid-area: sr11;
+}
+
+#sr12{
+    grid-area: sr12;
+}
+
+.foodImages{
+
+    width: 350px;
+    height: 400px;
+    object-fit: cover;
+    border: solid white 5px
+}
+
+.foodHeader{
+    font-size: 40px;
+}
+
+.foodText{
+    font-size: 23px;
+    padding: 20px;
+    text-align: center;
+}
+
