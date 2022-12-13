@@ -24,13 +24,10 @@ nav {
     color: white;
 }
 
-#bottomHeading{
-    color: white;
-    padding:1rem;
-}
-
 header{
     background-color:#496f43;
+    align-items: center;
+    justify-content: center;
 }
 
 a:link {
@@ -46,10 +43,6 @@ a:hover{
     color: lightgreen;
 }
 
-body{
-background-color:white;
-}
-
 #gridWrapperIndex{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -62,14 +55,15 @@ background-color:white;
     "s9 s9 s10 s10"
     "s11 s11 s12 s12"
     ;
-    position: relative;
 }
 
 footer{
     background-color:#496f43;
-    height: 15vh;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center
 }
-
 
 #s1{
     background-image: url(..//img/animals/bildPaPanda.jpg);
@@ -170,6 +164,12 @@ footer{
 h2{
     color: white;
 }
+
+h3{
+    color: white;
+    padding: 0.3rem;
+}
+
 p{
     color: white ;
 }
@@ -203,15 +203,22 @@ p{
 #griddWrapperResturant{
     display: grid;
     grid-template-columns: 0.3fr 1fr 1fr 1fr 0.3fr;
-    grid-template-rows: 15vh 55vh 40vh 55vh 40vh;
+    grid-template-rows: 15vh 55vh 25vh 55vh 25vh;
     grid-template-areas: 
-    ". . . . ."
+    "srh srh srh srh srh"
     ". sr1 sr2 sr3 ."
     ". sr4 sr5 sr6 ."
     ". sr7 sr8 sr9 ."
     ". sr10 sr11 sr12 ."
     ;
     background-color: #3a5836;
+}
+
+#srh{
+    grid-area: srh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #sr1{
@@ -262,18 +269,27 @@ p{
 
 #sr10{
     grid-area: sr10;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 #sr11{
     grid-area: sr11;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
 }
 
 #sr12{
     grid-area: sr12;
+    display: flex;
+    align-items:  center;
+    flex-direction: column;
 }
 
 .foodImages{
-
     width: 350px;
     height: 400px;
     object-fit: cover;
@@ -290,3 +306,87 @@ p{
     text-align: center;
 }
 
+#menuHeader{
+    font-size: 50px;
+}
+
+#gridWrapperOmOss{
+    display: grid;
+    grid-template-columns: 0.3fr 1fr 1fr 1fr 0.3fr;
+    grid-template-rows: 15vh 70vh 70vh 70vh 10vh;
+    grid-template-areas: 
+    "so1 so1 so1 so1 so1"
+    ". so2 so3 so4 ."
+    ". so5 so6 so7 ."
+    ". so8 so9 so10 ."
+    ". . . . .";
+    background-color: #3a5836;
+}
+
+#so1{
+    grid-area: so1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#so2{
+    grid-area: so2;
+    flex-direction: column;
+}
+
+#so3{
+    grid-area: so3;
+    flex-direction: column;
+}
+
+#so4{
+    grid-area: so4;
+    flex-direction: column;
+}
+
+#so5{
+    grid-area: so5;
+    flex-direction: column;
+}
+
+#so6{
+    grid-area: so6;
+    flex-direction: column;
+}
+
+#so7{
+    grid-area: so7;
+    flex-direction: column;
+}
+
+#so8{
+    grid-area: so8;
+    flex-direction: column;
+}
+
+#so9{
+    grid-area: so9;
+    flex-direction: column;
+}
+
+
+#so10{
+    grid-area: so10;
+    flex-direction: column;
+}
+
+
+.peopleImage{
+    width: 350px;
+    height: 470px;
+    object-fit: cover;
+    border: solid white 5px;
+}
+
+.nameHeader{
+    font-size: 30px;
+    margin-top: 15px;
+    margin-top: 15px;
+    width: 350px;
+}
