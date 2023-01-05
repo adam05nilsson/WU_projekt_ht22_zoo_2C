@@ -67,24 +67,24 @@ footer{
 
 #s1{
     background-image: url(..//img/animals/bildPaPanda.jpg);
-    background-size: 450px;
+    background-size: 28rem;
     grid-area: s1;
 }
 #s2{
     background-image: url(..//img/animals/bildPaGiraff.jpg);
-    background-size: 450px;
+    background-size: 28rem;
     grid-area: s2;
 
 }
 #s3{
     background-image: url(..//img/animals/bildPaGladaApor.jpg);
-    background-size: 430px;
+    background-size: 28rem;
     grid-area: s3;
 
 }
 #s4{
     background-image: url(..//img/animals/flamingoBild.jpg);
-    background-size: 430px;
+    background-size: 28rem;
     grid-area: s4;
 }
 
@@ -140,12 +140,12 @@ footer{
 #ourAnimalsSection{
     position: absolute;
     justify-items: center;
-    margin-left: 670px;
-    margin-top: 265px;
+    margin-left: 41.875rem;
+    margin-top: 16.563rem;
 }
 
 #ourAnimals{
-    font-size: 75px;
+    font-size: 4.688rem;
     color: white ;
 
 }
@@ -153,12 +153,6 @@ footer{
 #contactList{
     color: white;
     margin-left: 2rem;
-}
-
-#bildPa2Pandor{
-    width: 700px;
-    border: 10px solid;
-    border-color: white;
 }
 
 h2{
@@ -175,13 +169,13 @@ p{
 }
 
 .animalHeading{
-    font-size: 50px;
-    margin-top: 140px;   
+    font-size: 3.125rem;
+    margin-top: 8.75rem;   
 }
 
 .animalText{
-    font-size: 30px;
-    padding: 50px;
+    font-size: 1.875rem;
+    padding: 3.125rem;
 }
 
 .centerImages{
@@ -190,13 +184,13 @@ p{
     align-items: center;
 }
 
-.bildPaDjur{
-    width: 700px;
-    border: 5px solid;
+.pictureOfAnimal{
+    width: 43.75rem;
+    border: 0.313rem solid;
     border-color: white;
 }
 
-#bildPaApa{
+#pictureOfMonkey{
     height: 630px;
 }
 
@@ -290,24 +284,24 @@ p{
 }
 
 .foodImages{
-    width: 350px;
-    height: 400px;
+    width: 21.875rem;
+    height: 25rem;
     object-fit: cover;
-    border: solid white 5px
+    border: solid white 0.313rem
 }
 
 .foodHeader{
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 
 .foodText{
-    font-size: 23px;
-    padding: 20px;
+    font-size: 1.438rem;
+    padding: 1.25rem;
     text-align: center;
 }
 
 #menuHeader{
-    font-size: 50px;
+    font-size: 3.125rem;
 }
 
 #gridWrapperOmOss{
@@ -376,17 +370,23 @@ p{
     flex-direction: column;
 }
 
-
 .peopleImage{
-    width: 350px;
-    height: 470px;
+    width: 21.875rem;
+    height: 29.375rem;
     object-fit: cover;
-    border: solid white 5px;
+    border: solid white 0.313rem;
 }
 
 .nameHeader{
-    font-size: 30px;
-    margin-top: 15px;
-    margin-top: 15px;
-    width: 350px;
+    font-size: 1.875rem;
+    margin-top: 0.938rem;
+    margin-top: 0.938rem;
+    width: 21.875rem;
+}
+
+#logoLeft{
+    width: 7.5rem;
+    position: absolute;
+    margin-top: -3.75rem;
+    margin-left: 1.25rem;
 }
